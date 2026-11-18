@@ -1,0 +1,15 @@
+{
+  "name": "frajer-cyber-os-quizlet",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "login": "gitbook login",
+    "publish:integration": "gitbook publish"
+  },
+  "dependencies": {
+    "@gitbook/runtime": "0.26.0"
+  },
+  "devDependencies": {
+    "@gitbook/cli": "0.33.3"
+  }
+}

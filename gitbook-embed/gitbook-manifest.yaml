@@ -1,0 +1,12 @@
+name: frajer-cyber-os-quizlet
+title: Cyber OS Quizlet
+description: Vloží interaktivní kvíz přímo do stránky GitBooku.
+organization: frajer
+visibility: private
+target: space
+script: ./index.tsx
+scopes: []
+blocks:
+  - id: quizlet
+    title: Cyber OS Quizlet
+    description: Procvičování s demo databankou a místním načtením TXT
