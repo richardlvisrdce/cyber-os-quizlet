@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Procvičuj tvrzení po kapitolách nebo si zkus test z vlastní databanky.">
+  <meta name="theme-color" content="#111018">
+  <title>Cyber OS Quizlet</title>
+  <link rel="stylesheet" href="./style.css">
+  <script defer src="./demo.js"></script>
+  <script defer src="./quiz.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="shell top-inner">
+      <button class="brand" type="button" data-action="home">
+        <span class="brand-icon" aria-hidden="true">〉_</span> Cyber OS <strong>Quizlet</strong>
+      </button>
+      <button class="button outline settings" type="button" data-action="settings">
+        <span aria-hidden="true">Aa</span> Písmo
+      </button>
+    </div>
+  </header>
+  <main id="app" class="shell"></main>
+  <dialog id="settings">
+    <form method="dialog">
+      <h2>Nastavení písma</h2>
+      <label for="font">Písmo aplikace</label>
+      <select id="font">
+        <option value="system">Systémové</option>
+        <option value="consolas">Consolas</option>
+        <option value="arial">Arial</option>
+        <option value="calibri">Calibri</option>
+        <option value="verdana">Verdana</option>
+        <option value="trebuchet">Trebuchet MS</option>
+      </select>
+      <p class="muted">Ukázka textu: Tvrzení je pravda.</p>
+      <button class="button primary">Hotovo</button>
+    </form>
+  </dialog>
+</body>
+</html>
